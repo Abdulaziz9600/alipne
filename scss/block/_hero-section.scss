@@ -1,0 +1,187 @@
+.hero-section {
+  width: 994px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-400px);
+  background: linear-gradient(180deg, rgba(50, 42, 39, 0) 0%, rgba(45, 40, 40, 0.85) 33.85%, #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-section__hero-box-titel{
+  margin: 0;
+  padding: 0;
+  margin-top: 76px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 89px;
+}
+.hero-section__hero-titel{
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+}
+.hero-section__hero-text{
+  width: 432px;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149.8%;
+}
+.network-section__Notifications-box{
+  display: flex;
+}
+.network-section__Showcasing-Customers{
+  padding-top: 65px;
+}
+.network-section__Showcasing-Customers-box{
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+}
+.network-section__text-one-box{
+  position: relative;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(255, 22, 64);
+  margin-right: 5px;
+}
+.network-section__text-one{
+  position: absolute;
+  left: 10px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28px;
+}
+.etwork-section__Unread-Notifications{
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 149.8%;
+}
+.network-section__Unread-Notifications{
+  margin-right:80px ;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 149.8%;
+}
+.network-section__Unread-Notifications-button{
+  display: flex;
+  align-items: center;
+  padding-right: 14px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-top: 5px;
+  background: url(.jpg), #C4C4C4;
+  border-radius: 50px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 149.8%;
+}
+.oval{
+  width: 25px;
+  height: 25px;
+  padding-right: 4px;
+}
+.network-section__Showcasing{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  padding-right: 80px;
+  padding-bottom: 23px;
+  padding-left: 17px;
+  padding-top: 14px;
+  background-image:url(../../img/Rectangle-bg.png) ;
+}
+.network-section__Showcasing-img{
+  width: 80px;
+  height: 80px;
+  padding-right: 20px;
+}
+.network-section__Showcasing-titel{
+  margin-left: 20px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 149.8%;
+}
+.network-section__Showcasing-text{
+  width:251px ;
+  margin-left: 20px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 149.8%;
+}
+.network-section__Rosario{
+  margin: 0;
+  padding: 0;
+  color:rgba(45, 40, 40, 1);
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 149.8%;
+}
+.network-section__just-now{
+  margin: 0;
+  padding: 0;
+  color: rgba(45, 40, 40, 0.7);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 149.8%;
+}
+.network-section__info-titel{
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.6;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 149.8%;
+}
+.network-section__info-text{
+  width: 315px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.6;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 149.8%;
+}
+.network-section__Showcasing-info{
+  margin-top: 114px;
+  margin-left: 74px;
+}
+.on{
+  margin-left: 10px;
+}

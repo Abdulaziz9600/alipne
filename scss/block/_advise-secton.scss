@@ -1,0 +1,32 @@
+.advise-section__advise-box{
+  margin-top: -400px;
+}
+
+.advise-section__advise-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  list-style: none;
+}
+.advise-section__sitate-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.advise-section__sitate-item{
+  position: relative;
+}
+.advise-section__sitate-item-text{
+  width: 268px;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 149.8%;
+}
+.logo1{
+  position: absolute;
+  top: 20px;
+}

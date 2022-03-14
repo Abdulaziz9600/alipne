@@ -1,0 +1,71 @@
+.network-section__network-list{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+.network-section__network-item{
+  margin-right: 30px;
+  list-style: none;
+  transition: 0.8s ease;
+}
+.network-section__network-item:hover{
+  transform: scale(1.07);
+}
+.networ-img{
+  width: 89px;
+  height: 39px;
+}
+.network-section__marketing-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 60px;
+  margin-top: 149px;
+  list-style: none;
+}
+.network-section__marketing-list :nth-child(1){
+  margin-left: -20px;
+}
+.network-section__marketing-list :nth-child(2){
+  margin-bottom: 40px;
+  position: fixed;
+  right: 40%;
+  
+}
+.network-section__marketing-list :nth-child(3){
+  margin-right: -20px;
+  
+}
+.network-section__marketing{
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.network-section__marketing-titel{
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+}
+.network-section__dashed{
+  width: 256px;
+  border-bottom:  4px dashed rgba(255, 255, 255, 0.75); 
+  position: relative;
+  
+}
+.network-section__marketing-link{
+  padding-right: 32px;
+  padding-bottom: 8px;
+  padding-left: 32px;
+  padding-top: 8px;
+  text-decoration: none;
+  color: rgb(240, 255, 255);
+  background: linear-gradient(180deg, #864A23 0%, #6A3A1B 100%);
+  border-radius: 20px;
+}

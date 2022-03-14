@@ -1,0 +1,90 @@
+.site-footer{
+  width: 100%;
+  // transform: translateY(-116px);
+  padding-top: 100px;
+  padding-bottom: 200px;
+  margin-top: -116px;
+  background-image: url(../../img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.site-footer__footer-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.item-box{
+  display: flex;
+}
+.site-footer__footer-list{
+  margin: 0;
+  padding: 0;
+  margin-right: 45px;
+  list-style: none;
+}
+.site-footer__footer-item{
+  margin-top: 15px;
+}
+.site-footer__footer-titel{
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 149.8%;
+}
+.site-footer__footer-link{
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.6;
+  text-decoration: none;
+}
+.site-footer__footer-network-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+.terms{
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 149.8%;
+}
+.group{
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.6;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149.8%;
+}
+.site-footer__THANKS{
+  margin-top: 108px;
+  width: 439px;
+  background-color:rgba(255, 255, 255, 1) ;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+.THANKS-text{
+  margin: 0;
+  padding: 0;
+  display:inline-block;
+  padding-left: 10px;
+  padding-right: 60px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 39px;
+}

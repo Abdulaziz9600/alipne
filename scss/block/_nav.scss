@@ -1,0 +1,35 @@
+.nav__nav-list {
+  display: flex;
+  list-style: none;
+    
+}
+.nav__nav-item {
+  margin-left:30px ;
+  transition: 0.9s ease;
+  padding: 10px;
+  border-bottom: 3px solid transparent;
+}
+
+.nav__nav-link {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-family: 'Paytone One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.nav__nav-item:hover {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transition: 0.9s ease;
+  
+  }
+
+// .nav-list__nav-item {
+//   margin-left:30px ;
+//   transition: 0.9s ease;
+//   padding: 10px;
+//   border-bottom: 3px solid transparent;
+// }
+
